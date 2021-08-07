@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { connect } from "react-redux";
-import { incrementPlay, pausePlay } from "./redux";
+import { incrementPlay, pausePlay } from "./redux/actions";
 import audioEl3asofra from "./el3asfor.mp3";
 import "./App.css";
 
